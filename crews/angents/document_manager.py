@@ -1,6 +1,6 @@
 from crewai import Agent
 
-# 创建“文档管理员”代理
+# 创建“文档管理员”代理    
 document_manager = Agent(
     role='文档管理员',
     goal='使用RAG工具解析和理解各种格式的文件数据',
