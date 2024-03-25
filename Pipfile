@@ -7,7 +7,14 @@ name = "pypi"
 requests = "*"
 fastapi = "*"
 uvicorn = "*"
-crewai = "*"
+python-multipart = "*"
+pymupdf = "*"
+pillow = "*"
+redis = "*"
+crewai = {extras = ["tools"], version = "*"}
+python-dotenv = "*"
+opencv-python-headless = "*"
+easyocr = "*"
 
 [dev-packages]
 
